@@ -1,0 +1,26 @@
+{
+  "name": "RGBCalendar",
+  "version": "1.0.0",
+  "description": "Gateway to get my calendar events and send them back to my arduino to display them.",
+  "main": "index.js",
+  "scripts": {
+    "gen": "node token_generator.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Radiateurs/RGBCalendar.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Radiateurs/RGBCalendar/issues"
+  },
+  "homepage": "https://github.com/Radiateurs/RGBCalendar#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "googleapis": "^39.2.0"
+  }
+}
